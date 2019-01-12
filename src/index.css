@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.sidenav-trigger img{
+  height:50%;
+  margin-top:50%;
+}
+.border{
+  border:1px solid black
+}
+#phone-logo{
+  width:76%;
+}
+#phone-no{
+  font-size:1.2rem;
+}
