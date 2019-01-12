@@ -56,7 +56,7 @@ export default class Home extends Component {
                         </div>
                         <div className="row" style={{margintTop:"0",paddingTop:"0"}}>
                           <div className="col s12">
-                            <a className="waves-effect waves-light btn"><i class="material-icons left">attach_money</i>Sell</a>
+                            <a className="waves-effect green darken-4 waves-light btn"><i class="material-icons text-white left">attach_money</i><span className="text-white">Sell</span></a>
                           </div>
                         </div>
                         <div className="row">

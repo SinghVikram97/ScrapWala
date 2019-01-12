@@ -25,3 +25,19 @@ code {
 #phone-no{
   font-size:1.2rem;
 }
+.panel-body{
+  padding:15px;
+  border: 1px solid #62cb31!;
+  border-radius: 2px;
+}
+.media-left{
+  display: table-cell;
+  vertical-align: top;
+}
+.media-body{
+  vertical-align: middle !important;
+  display: table-cell
+}
+.text-white{
+  color:white !important;
+}

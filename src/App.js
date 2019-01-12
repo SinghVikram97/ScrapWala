@@ -6,6 +6,7 @@ import PriceList from './components/PriceList';
 import SignIn from './components/SignIn'
 import SignOut from './components/SignOut'
 import requestPickUp from './components/requestPickUp'
+import Category from './components/Category'
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route exact path="/price-list" component={PriceList}/>
               <Route exact path="/request-pickup" component={requestPickUp}/>
+              <Route exact path="/category-detect" component={Category}/>
               <Route exact path="/sign-in" component={SignIn}/>
               <Route exact path="/sign-out" component={SignOut}/>
            </Switch>
